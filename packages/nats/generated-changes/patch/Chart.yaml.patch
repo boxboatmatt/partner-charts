@@ -1,0 +1,11 @@
+--- charts-original/Chart.yaml
++++ charts/Chart.yaml
+@@ -20,3 +20,8 @@
+   url: https://github.com/variadico
+ name: nats
+ version: 0.10.0
++kubeVersion: "1.16 - 1.22"
++annotations:
++  catalog.cattle.io/certified: partner
++  catalog.cattle.io/release-name: nats
++  catalog.cattle.io/display-name: NATS Server
