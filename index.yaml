@@ -1764,6 +1764,38 @@ entries:
     urls:
     - assets/linkerd/linkerd2-2.11.0.tgz
     version: 2.11.0
+  nats:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: NATS
+      catalog.cattle.io/release-name: nats
+    apiVersion: v2
+    appVersion: 2.6.5
+    created: "2021-12-03T07:51:15.0224-07:00"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 24920d96618cad572c0c6a683cfebc9f89eb3e655c468ac872596b1cc0607d0d
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    kubeVersion: 1.16 - 1.22
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: jaime@nats.io
+      name: Jaime Piña
+      url: https://github.com/variadico
+    name: nats
+    urls:
+    - assets/nats-server/nats-0.10.0.tgz
+    version: 0.10.0
   neuvector:
   - annotations:
       catalog.cattle.io/certified: partner
