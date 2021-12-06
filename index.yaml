@@ -1781,7 +1781,7 @@ entries:
     - nats
     - messaging
     - cncf
-    kubeVersion: 1.16 - 1.22
+    kubeVersion: '>=1.16'
     maintainers:
     - email: wally@nats.io
       name: Waldemar Quevedo
@@ -1794,7 +1794,7 @@ entries:
       url: https://github.com/variadico
     name: nats
     urls:
-    - assets/nats-server/nats-0.10.0.tgz
+    - assets/nats/nats-0.10.0.tgz
     version: 0.10.0
   neuvector:
   - annotations:
