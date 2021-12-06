@@ -12,7 +12,7 @@ keywords:
 - nats
 - messaging
 - cncf
-kubeVersion: '>=1.16'
+kubeVersion: '>=1.16-0'
 maintainers:
 - email: wally@nats.io
   name: Waldemar Quevedo
